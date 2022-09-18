@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500&display=swap');
+
+@font-face {
+	font-family: "Georgia";
+	src: url("../fonts/Georgia-Regular.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Georgia";
+	src: url("../fonts/Georgia-Italic.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Georgia";
+	src: url("../fonts/Georgia-Bold.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Georgia";
+	src: url("../fonts/Georgia-Bold-Italic.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: italic;
+}
+
+body {
+	font-family: "Open Sans", serif;
+}
+
+.production {
+	color: #77608d;
+	text-align: center;
+	padding: 100px 30px 75px 50px;
+}
+
+.production p {
+	text-shadow: 2px 2px 5px #000;
+	text-align: left;
+	text-indent: 50px;
+}
+
+.title {
+	font-family: "Georgia", serif;
+	font-weight: 700;
+	font-size: 32px;
+}
+
+h1.title {
+	letter-spacing: 15px;
+}
+
+.text {
+	font-size: 24px;
+}
+
+.text-production {
+	color: coral;
+}
+
+.img {
+	color: crimson;
+	text-align: right;
+	text-decoration: line-through;
+	text-transform: uppercase;
+	width: 150px;
+}
+
+.music {
+	color: aqua;
+	line-height: 1.5;
+	margin-bottom: 75px;
+}
+
+.music .title {
+	text-decoration: overline;
+}
+
+.text-music {
+	color: darkgreen;
+}
+
+.music>p {
+	line-height: 2.5;
+}
+
+.trailer {
+	word-spacing: 80px;
+	padding: 50px 200px;
+}
+
+.cash {
+	color: darkmagenta;
+}
+
+.cash p.text {
+	text-transform: lowercase;
+	font-size: 50px;
+}
+
+h3.title {
+	text-indent: 100px;
+}
+
+.text-cash {
+	font-family: "Georgia", serif;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 24px;
+	color: fuchsia;
+}
+
+.text.text-cash {
+	line-height: 1.5;
+	padding-left: 250px;
+}
+
+
+.cash .title {
+	text-shadow: -3px -3px 15px #ff0000;
+	letter-spacing: 20px;
+	width: 300px;
+	text-align: right;
+}
+
+.cash~p {
+	text-align: justify;
+}
+
+.critics {
+	font-style: italic;
+	font-weight: 500;
+	font-size: 20px;
+	text-align: right;
+	text-decoration: underline;
+	text-transform: capitalize;
+}
+
+.critics p {
+	white-space: nowrap;
+	margin-top: 50px;
+}
