@@ -1,0 +1,36 @@
+.button {
+	padding: 10px 40px;
+	background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+	border-radius: 4px;
+	color: #FFFFFF;
+	line-height: 2.0;
+	letter-spacing: 0.5px;
+}
+
+.button--border {
+	color: #FF3F3A;
+	border: 1px solid #FF3F3A;
+	background: transparent;
+	padding: 9px 40px;
+}
+
+
+
+.title {
+	color: #1E212C;
+}
+
+.title__subtitle {
+	font-weight: 700;
+	line-height: 1.5;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	padding-bottom: 8px;
+
+}
+
+.title__heading {
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 1.3;
+}
