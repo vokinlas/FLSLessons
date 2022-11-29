@@ -1430,7 +1430,7 @@ body {
           align-items: center;
 }
 
-.view_text {
+.view__text {
   color: #1E212C;
   font-weight: 700;
   font-size: 28px;
